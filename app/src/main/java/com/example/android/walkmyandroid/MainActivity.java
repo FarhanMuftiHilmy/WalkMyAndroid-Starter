@@ -63,7 +63,7 @@ public class MainActivity extends AppCompatActivity implements FetchAddressTask.
                     Manifest.permission.ACCESS_FINE_LOCATION
             }, REQUEST_LOCATION_PERMISSION);
         } else{
-            //update lokasi setiap sekian kali
+            //update lokasi sekali
             /*
             fusedLocationProviderClient.getLastLocation().addOnSuccessListener(new OnSuccessListener<Location>() {
                 @Override
